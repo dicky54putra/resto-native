@@ -11,5 +11,6 @@ class database
 
     public function db()
     {
+        return $this->db;
     }
 }

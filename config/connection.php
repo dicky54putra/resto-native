@@ -14,4 +14,9 @@ class connectionn extends database
             $db['database']
         );
     }
+
+    public function query($q)
+    {
+        return mysqli_query($this->connection, $q);
+    }
 }
